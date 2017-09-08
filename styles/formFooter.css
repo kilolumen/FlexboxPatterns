@@ -1,0 +1,41 @@
+.button {
+  cursor: pointer;
+  padding: 5px 15px;
+  color: #FFFFFF;
+  background-color: #4EBBE4;
+  font-size: 12px;
+  border: 1px solid #16A2D7;
+  border-radius: 4px;
+}
+.formFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #D7DBDD;
+  padding: 10px;
+}
+.formFooter__section {
+  display: flex;
+  align-items: center;
+}
+.formFooter__item + .formFooter__item {
+  margin-left: 5px;
+}
+.formFooterFeedback {
+  color: #86969C;
+  font-size: 12px;
+  line-height: 0;
+}
+.formFooterSpinner {
+  animation: formFooterSpinner 1s infinite steps(8, end);
+}
+
+@keyframes formFooterSpinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.button--clear {
+  color: #16A2D7;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
