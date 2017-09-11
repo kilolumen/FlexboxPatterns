@@ -1,0 +1,39 @@
+.button {
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #FFFFFF;
+  background-color: #4EBBE4;
+  font-size: 12px;
+  border: 1px solid #16A2D7;
+  border-radius: 4px;
+}
+.centeredPrompt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  padding: 10px;
+}
+.centeredPrompt__item + .centeredPrompt__item {
+  margin-top: 5px;
+}
+.centeredPromptIcon {
+  font-size: 60px;
+  line-height: 0;
+}
+.centeredPromptLabel {
+  color: #86969C;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.centeredPromptDetails {
+  color: #86979C;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.icon {
+  color: #BCD2DA;
+}
